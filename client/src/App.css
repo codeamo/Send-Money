@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap");
+
+
+* {
+  box-sizing: border-box;
+}
+/* 
+.app {
+  display: flex;
+  height: 100%;
+  position: relative;
+  z-index: 4;
+  margin: 0;
+  padding: 25px 15px;
+  font-family: "source code pro" sans-serif;
+  text-shadow: 7px 6px 10px rgba(14, 42, 90, 0.8);
+  user-select: none;
+  background-color: #ddeefc;
+  font-size: 16px;
+} */
+
+
+

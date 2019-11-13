@@ -1,0 +1,28 @@
+{
+  "name": "react-credit-card-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeamo/mobile-banking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeamo/mobile-banking/issues"
+  },
+  "homepage": "https://github.com/codeamo/mobile-banking#readme",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "pg": "^7.12.1",
+    "react": "^16.11.0",
+    "sequelize": "^5.21.2"
+  }
+}

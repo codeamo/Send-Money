@@ -1,0 +1,23 @@
+.friends-list {
+  width: 100%;
+  height: 153px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  justify-content: space-between;
+  /* margin-left: 7px; */
+  /* border: 5px solid black; */
+  padding-top: 15px;
+  padding-bottom: 10px;
+  /* align-items: center; */
+}
+
+/* .sendMoney {
+  text-align: center;
+  margin: 20px 0px 0px 0px ;
+  padding: 0;
+  z-index: 1;
+  /* align-self: flex-start; */
+/* } */ 

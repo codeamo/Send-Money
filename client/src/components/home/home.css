@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap");
+
+* {
+  font-family: "source code pro";
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100vw;
+  left: 0px;
+  right: 0px;
+  /* background: #081C81; */
+  background: #ffffff;
+}
+
+.topIcon {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.creditCard {
+  /* position: absolute;
+  width: 100vw;
+  height: 260px; */
+  margin-top: 120px;
+}
+
