@@ -31,7 +31,6 @@
 }
 
 .card-form {
-  max-width: 570px;
   margin: 0 auto;
   width: 100%;
   /* display: flex; */
@@ -47,25 +46,25 @@
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 828px) {
   .card-form {
-    /* margin: 0 auto; */
+    margin: 0 auto;
   }  
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 828px) {
   .card-form {
-    padding: 25px;
+    /* padding: 15px; */
     padding-top: 165px;
   }
 }
 
-@media screen and (max-width: 360px) {
+/* @media screen and (max-width: 360px) {
   .card-form {
     padding: 15px;
     padding-top: 165px;
   }
-}
+} */
 
 input:focus, input:hover, select:focus, select:hover {
   border-color: #3d9cff;
@@ -112,7 +111,22 @@ input, select {
   }
 }
 
+@media screen and (max-width: 828px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (max-width: 480px) {
+  .col {
+    margin-right: 0;
+    flex: unset;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 828px) {
   .col {
     margin-right: 0;
     flex: unset;
@@ -130,14 +144,13 @@ input, select {
   margin-right: 15px;
 }
 
-
-
 .group {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  width: 92vw;
+  /* width: 92vw; */
   position: relative;
+  justify-content: center;
 }
 
 .col_cvv {
@@ -146,6 +159,12 @@ input, select {
 }
 
 @media screen and (max-width: 480px) {
+  .col_cvv {
+    max-width: initial;
+  }
+}
+
+@media screen and (max-width: 828px) {
   .col_cvv {
     max-width: initial;
   }
@@ -175,26 +194,3 @@ select {
   width: 46%;
 }
 
-
-/* responsive layout for smaller screens*/
-@media screen and (max-width: 576px) {
-  .card-form {
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .card-form {
-    padding: 25px;
-    padding-top: 165px;
-  }
-
-
-}
-
-@media screen and (max-width: 360px) {
-  .card-form {
-    padding: 25px;
-    padding-top: 165px;
-  }
-}

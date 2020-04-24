@@ -24,6 +24,16 @@ exports.createUser = async ctx => {
   }
 };
 
+//Sign user in
+
+exports.signIn = async() => {
+  try {
+    
+  } catch (error) {
+    
+  }
+}
+
 //Create credit card
 exports.createCard = async ctx => {
   try {
@@ -84,6 +94,7 @@ exports.createTx = async ctx => {
     ctx.status = 500;
   }
 }
+
 //list of all current users
 exports.getUsers = async ctx => {
 

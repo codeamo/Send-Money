@@ -4,13 +4,15 @@ const Router = require('koa-router');
 const router = new Router();
 const ctr = require('./controllers/index');
 
-router.post('/register', ctr.createUser);
-router.post('/register/:userId/card', ctr.createCard);
-// router.post('/register', ctr.createCard);
-router.post('/send/:senderId/:recipientId', ctr.createTx); //finish it's client section
-router.get('/txHistory/:id', ctr.getTxHistory);
-router.get('/users', ctr.getUsers);
-router.get ('/cardInfo/:id', ctr.getCardInfo);
+
+router
+  .post('./login', ctr.signIn)
+  .post('/register', ctr.createUser)
+  .post('/register/:userId/card', ctr.createCard)
+  .post('/send/:senderId/:recipientId', ctr.createTx)
+  .get('/txHistory/:id', ctr.getTxHistory)
+  .get('/users', ctr.getUsers)
+  .get ('/cardInfo/:id', ctr.getCardInfo);
 
 
 

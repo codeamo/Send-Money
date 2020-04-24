@@ -30,7 +30,6 @@ function App() {
    apiClient.getCardInfo(userId).then(card => setCardInfo(card));
   }, []);
 
-  console.log()
 
   const createUser = inputs => {
     apiClient.postUser(inputs)
@@ -42,7 +41,7 @@ function App() {
         setAllUsers([...allUsers, data])
       })
     .catch(err => {
-      alert(err);
+      console.log(err);
     })
   };
 
@@ -52,7 +51,7 @@ function App() {
       apiClient.getCardInfo(userId).then(card => setCardInfo(card));
     })
     .catch(err => {
-      alert(err)
+      console.log(err)
     })
   };
 
@@ -63,7 +62,7 @@ function App() {
       console.log('sent amount', data);
     })
     .catch(error => {
-      alert(error)
+      console.log(error)
     })
   }
 
